@@ -8,7 +8,6 @@
  "field_order": [
   "data_neav",
   "customer_care",
-  "airplane",
   "headquarters"
  ],
  "fields": [
@@ -31,17 +30,16 @@
    "in_list_view": 1,
    "label": "Headquarters",
    "reqd": 1
-  },
-  {
-   "fieldname": "airplane",
-   "fieldtype": "Link",
-   "label": "airplane",
-   "options": "Airplane"
   }
  ],
  "index_web_pages_for_search": 1,
- "links": [],
- "modified": "2024-09-28 17:02:32.498238",
+ "links": [
+  {
+   "link_doctype": "Airplane",
+   "link_fieldname": "airline"
+  }
+ ],
+ "modified": "2024-09-28 19:16:04.654893",
  "modified_by": "Administrator",
  "module": "Airplane_Mode",
  "name": "Airline",
